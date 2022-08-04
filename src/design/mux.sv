@@ -21,6 +21,8 @@
 
 
 module mux(
-
+input logic A,
+input logic B,
+output logic C
     );
 endmodule

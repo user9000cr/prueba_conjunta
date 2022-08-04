@@ -1,0 +1,105 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 2056
+License: Customer
+
+Current time: 	Thu Aug 04 17:26:34 CST 2022
+Time zone: 	Central Standard Time (America/Regina)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 16 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Esteban Arias
+User home directory: C:/Users/estea
+User working directory: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project
+User country: 	CR
+User language: 	es
+User locale: 	es_CR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/estea/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/estea/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/estea/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado.log
+Vivado journal file location: 	C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado.jou
+Engine tmp dir: 	C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/.Xil/Vivado-2056-LAPTOP-MAPH74T4
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 581 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1111 ms.
+// Tcl Message: Sourcing tcl script 'C:/Users/estea/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl' 
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Taller_Digitales\Ejemplos\Prueba_Conjunta_David_Esteban\prueba_conjunta\vivado_project\vivado_project.xpr. Version: Vivado v2019.1 
+// Tcl Message: open_project C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado_project.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado_project.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 588 MB. GUI used memory: 51 MB. Current time: 8/4/22, 5:26:37 PM CST
+// [GUI Memory]: 110 MB (+113130kb) [00:00:23]
+// [Engine Memory]: 618 MB (+496060kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  7484 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:11 . Memory (MB): peak = 651.094 ; gain = 41.527 
+// Project name: vivado_project; location: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project; part: xc7a100tcsg324-1
