@@ -100,3 +100,23 @@ Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // [Engine Memory]: 605 MB (+482511kb) [00:00:17]
 // WARNING: HEventQueue.dispatchEvent() is taking  4899 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 642 MB. GUI used memory: 54 MB. Current time: 8/4/22, 8:47:58 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 664.242 ; gain = 45.289 
+// Project name: vivado_project; location: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project; part: xc7a100tcsg324-1
+// [Engine Memory]: 643 MB (+8562kb) [00:00:21]
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (mux.sv) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.sv)]", 1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.sv)]", 1, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("mux.sv", 110, 277); // cl (w, cl)
+// [Engine Memory]: 679 MB (+3455kb) [00:00:36]
+selectCodeEditor("mux.sv", 201, 257); // cl (w, cl)
+selectCodeEditor("mux.sv", 168, 241); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("mux.sv", 88, 250); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK (aH, cl)
+// Tcl Command: 'rdi::info_commands {gi*}'

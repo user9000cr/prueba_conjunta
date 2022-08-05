@@ -11,3 +11,5 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+git add .
