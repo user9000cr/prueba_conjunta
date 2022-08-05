@@ -31,6 +31,7 @@ output logic D
     assign C = A & B;
     assign C= A|B;
     assign D=A|B;
+    assign C = ~A;
     
     
 endmodule
