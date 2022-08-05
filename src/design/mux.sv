@@ -23,11 +23,13 @@
 module mux(
 input logic A,
 input logic B,
-output logic C
+output logic C,
+output logic D
+
     );
     
     assign C = A & B;
-    
+    assign C= A|B;
     
     
     

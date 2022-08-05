@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Aug  4 17:26:06 2022
+# Process ID: 2056
+# Current directory: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11460 C:\Taller_Digitales\Ejemplos\Prueba_Conjunta_David_Esteban\prueba_conjunta\vivado_project\vivado_project.xpr
+# Log file: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado.log
+# Journal file: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/estea/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+start_gui
+open_project C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/design/mux.sv'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/vivado_project/vivado_project.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:11 . Memory (MB): peak = 651.094 ; gain = 41.527
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/src/design/mux.sv
+export_ip_user_files -of_objects  [get_files C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/design/mux.sv] -no_script -reset -force -quiet
+remove_files  C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta/design/mux.sv
+git status
+Not in project directory
+Changing directory to: C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   src/design/mux.sv
+	modified:   vivado_project/vivado_project.cache/wt/project.wpc
+	modified:   vivado_project/vivado_project.xpr
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	vivado_project/vivado.jou
+	vivado_project/vivado.log
+	vivado_project/vivado_12740.backup.jou
+	vivado_project/vivado_12740.backup.log
+	vivado_project/vivado_17636.backup.jou
+	vivado_project/vivado_17636.backup.log
+	vivado_project/vivado_pid2056.str
+	vivado_project/vivado_project.cache/wt/gui_handlers.wdf
+	vivado_project/vivado_project.cache/wt/webtalk_pa.xml
+	vivado_project/vivado_project.ip_user_files/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+warning: in the working copy of 'vivado_project/vivado.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado_12740.backup.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado_12740.backup.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado_17636.backup.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado_17636.backup.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_project/vivado_pid2056.str', LF will be replaced by CRLF the next time Git touches it
+git commit -m "Primer_Commit"
+INFO: [Vivado-projutils-8] Tcl script 'vivado_project.tcl' generated in output directory 'C:/Taller_Digitales/Ejemplos/Prueba_Conjunta_David_Esteban/prueba_conjunta'
+
+INFO: [Vivado-projutils-15] The file paths for the project source files were set relative to the location of the generated script.
+vivado_project.tcl
+[main 41c9968] Primer_Commit
+ 14 files changed, 275 insertions(+), 12 deletions(-)
+ create mode 100644 vivado_project/vivado.jou
+ create mode 100644 vivado_project/vivado.log
+ create mode 100644 vivado_project/vivado_12740.backup.jou
+ create mode 100644 vivado_project/vivado_12740.backup.log
+ create mode 100644 vivado_project/vivado_17636.backup.jou
+ create mode 100644 vivado_project/vivado_17636.backup.log
+ create mode 100644 vivado_project/vivado_pid2056.str
+ create mode 100644 vivado_project/vivado_project.cache/wt/gui_handlers.wdf
+ create mode 100644 vivado_project/vivado_project.cache/wt/webtalk_pa.xml
+ create mode 100644 vivado_project/vivado_project.ip_user_files/README.txt
+git push
+To github.com:user9000cr/prueba_conjunta.git
+   46327fb..41c9968  main -> main
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug  4 18:03:38 2022...
